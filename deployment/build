@@ -1,0 +1,5 @@
+npm i
+if [ "$?" != "0" ]; then exit 1; fi
+npm run build
+mv build dist
+if [ "$?" != "0" ]; then exit 1; fi

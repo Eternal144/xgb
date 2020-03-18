@@ -1,0 +1,176 @@
+{
+    "error_code": 0,
+    "data": [
+        {
+            "id": 1,
+            "title": "学工研究",
+            "type": "2",
+            "rank": "0",
+            "link": null,
+            "children": [
+                {
+                    "id": 8,
+                    "title": "学“习”专栏",
+                    "type": "1",
+                    "link": "",
+                    "listType": "-1",
+                    "contentType": "-1",
+                    "parent_id": "1",
+                    "rank": null
+                }, {
+                    "id": 9,
+                    "title": "文件精读",
+                    "type": "1",
+                    "link": "",
+                    "listType": "-1",
+                    "contentType": "-1",
+                    "parent_id": "1",
+                    "rank": null
+                }, {
+                    "id": 10,
+                    "title": "行思论理",
+                    "type": "1",
+                    "link": "",
+                    "listType": "-1",
+                    "contentType": "-1",
+                    "parent_id": "1",
+                    "rank": null
+                }, {
+                    "id": 11,
+                    "title": "他山之石",
+                    "type": "1",
+                    "link": "",
+                    "listType": "-1",
+                    "contentType": "-1",
+                    "parent_id": "1",
+                    "rank": null
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "学工之家",
+            "type": "2",
+            "rank": "0",
+            "link": "",
+            "created_at": "2020-01-12 05:53:52",
+            "updated_at": "2020-01-12 05:53:52",
+            "children": [
+                {
+                    "id": 12,
+                    "title": "思政品牌",
+                    "type": "1",
+                    "link": "",
+                    "listType": "-1",
+                    "contentType": "-1",
+                    "parent_id": "1",
+                    "rank": null
+                }, {
+                    "id": 13,
+                    "title": "学工资讯",
+                    "type": "1",
+                    "link": "",
+                    "listType": "-1",
+                    "contentType": "-1",
+                    "parent_id": "1",
+                    "rank": null
+                }, {
+                    "id": 14,
+                    "title": "一院一品",
+                    "type": "1",
+                    "link": "",
+                    "listType": "-1",
+                    "contentType": "-1",
+                    "parent_id": "1",
+                    "rank": null
+                }, {
+                    "id": 15,
+                    "title": "榜样之光",
+                    "type": "1",
+                    "link": "",
+                    "listType": "-1",
+                    "contentType": "-1",
+                    "parent_id": "1",
+                    "rank": null
+                }
+                , {
+                    "id": 16,
+                    "title": "专题快报",
+                    "type": "1",
+                    "link": "",
+                    "listType": "-1",
+                    "contentType": "-1",
+                    "parent_id": "1",
+                    "rank": null
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "一键学工",
+            "type": "2",
+            "rank": "1",
+            "link": "",
+            "created_at": "2020-01-12 00:45:51",
+            "updated_at": "2020-01-12 00:45:51",
+            "children": [
+                {
+                    "id": 17,
+                    "title": "青言导语",
+                    "type": "1",
+                    "link": "",
+                    "listType": "-1",
+                    "contentType": "-1",
+                    "parent_id": "1",
+                    "rank": null
+                }, {
+                    "id": 18,
+                    "title": "学工矩阵",
+                    "type": "0",
+                    "link": "weixin.campusplus.com/9f78e8efa9c/youthmedia/ff8080816ca25158016ccf230b110c72_group",
+                    "listType": "-1",
+                    "contentType": "-1",
+                    "parent_id": "1",
+                    "rank": null
+                }
+            ]
+        },
+        // {
+        //     "id": 4,
+        //     "title": "备用位置",
+        //     "type": "0",
+        //     "rank": "1",
+        //     "link": "",
+        //     "created_at": "2020-01-12 00:45:51",
+        //     "updated_at": "2020-01-12 00:45:51",
+        // },
+        // {
+        //     "id": 5,
+        //     "title": "备用位置",
+        //     "type": "0",
+        //     "rank": "1",
+        //     "link": "",
+        //     "created_at": "2020-01-12 00:45:51",
+        //     "updated_at": "2020-01-12 00:45:51",
+        // },
+        // {
+        //     "id": 6,
+        //     "title": "备用位置",
+        //     "type": "0",
+        //     "rank": "1",
+        //     "link": "",
+        //     "created_at": "2020-01-12 00:45:51",
+        //     "updated_at": "2020-01-12 00:45:51",
+        // },
+        // {
+        //     "id": 7,
+        //     "title": "备用位置",
+        //     "type": "0",
+        //     "rank": "1",
+        //     "link": "",
+        //     "created_at": "2020-01-12 00:45:51",
+        //     "updated_at": "2020-01-12 00:45:51",
+        // }
+    ],
+    "tips": "获取成功"
+}

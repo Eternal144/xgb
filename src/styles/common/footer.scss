@@ -1,0 +1,195 @@
+$PC-footer-title:1.5rem;
+$PC-footer-text:0.9rem;
+
+$Tablet-footer-title: 1.2rem;
+$Tablet-footer-text: 0.7rem;
+$Mobile-footer-title: 1.1rem;
+$Mobile-footer-text: 0.6rem;
+
+a {
+    transition: all .2s;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold;
+}
+
+* {
+    font-family: "Montserrat", "Avenir Next", "Avenir", "Segoe UI", "Hiragino Sans GB", "Hiragino Sans GB W3", "PingFang SC", "Microsoft Yahei", "SimHei", sans-serif
+}
+
+.footer-box {
+
+    background: #23272B;
+}
+
+.footer-content {
+    min-height: 380px;
+    padding-top: 80px;
+    padding-left: 200px;
+    padding-right: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-card {
+    width: 200px;
+    background: rgba(255, 255, 255, 0);
+    border: none;
+}
+
+.footer-title {
+    font-weight: bold;
+    font-size: $PC-footer-title;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: left;
+    line-height: $PC-footer-title;
+    margin-bottom: 24px;
+}
+
+.footer-title-blank {
+    font-weight: bold;
+    font-size: $PC-footer-title;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: left;
+    line-height: $PC-footer-title;
+    margin-bottom: 24px+24px;
+}
+
+.footer-text,
+.footer-text-nolink {
+    opacity: 0.7;
+    font-size: $PC-footer-text;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: left;
+    line-height: 22px;
+    text-decoration: none;
+}
+
+.footer-text:hover {
+    opacity: 1;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer-info {
+    font-family: "Montserrat", "Avenir Next", "Avenir", "Segoe UI", "Hiragino Sans GB", "Hiragino Sans GB W3", "PingFang SC", "Microsoft Yahei", "SimHei";
+    font-size: $PC-footer-text;
+    color: rgba(255, 255, 255, 0.54);
+    text-align: center;
+    line-height: 20px;
+    padding-bottom: 20px;
+    text-decoration: none;
+
+    a {
+        color: rgba(255, 255, 255, 0.54);
+    }
+}
+
+.footer-line1 {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-line2 {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+//以下适配横屏ipad
+@media screen and (max-width:1024px) {
+    .footer-content {
+        padding-top: 20px;
+        padding-left: 50px;
+        padding-right: 50px;
+        display: flex;
+        justify-content: center;
+        height: auto;
+    }
+
+    .footer-info {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: rgba(255, 255, 255, 0.54);
+        text-align: center;
+        line-height: 20px;
+    }
+}
+
+//以下适配竖屏ipad
+@media screen and (max-width:768px) {
+    .footer-content {
+        padding-left: 0;
+        padding-right: 0;
+        min-height: auto;
+    }
+
+    .footer-info {
+        margin-top: 20px;
+    }
+
+    // .footer-title,
+    // .footer-text {
+    //     padding-left: 1rem;
+    // }
+
+    .footer-title {
+        font-size: $Tablet-footer-title;
+    }
+
+    .footer-text {
+        font-size: $Tablet-footer-text + 0.2rem;
+    }
+}
+
+//以下适配iPhone X
+@media screen and (max-width:425px) {
+
+    .footer-title {
+        font-size: $Mobile-footer-title;
+    }
+
+    .card-text {
+        margin-bottom: 0;
+    }
+
+    .footer-text {
+        font-size: $Mobile-footer-text + 0.1rem;
+    }
+
+    .footer-card {
+        width: auto;
+    }
+
+    .footer-line1 {
+        margin: 0;
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .footer-line1:nth-child(2),
+    .footer-line2:nth-child(2) {
+        display: none;
+    }
+
+    .footer-line2 {
+        margin: 0;
+        display: flex;
+        justify-content: left;
+    }
+}
